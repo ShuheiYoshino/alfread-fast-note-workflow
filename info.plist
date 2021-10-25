@@ -6,11 +6,11 @@
 	<string>com.yoshino</string>
 	<key>connections</key>
 	<dict>
-		<key>210E5D83-ED0C-48BA-AA68-D6641ABE211B</key>
+		<key>0C708B5B-8E02-4159-9726-C2EB437C9283</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>45FDE1FD-91D4-4369-88E6-A45E06323AC6</string>
+				<string>2F8D1DAC-1D2D-4C84-B7BC-4F9A77261183</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -33,99 +33,65 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alignment</key>
+				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>backgroundcolor</key>
-				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
-				<string></string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>largetypetext</key>
-				<string>{query}</string>
-				<key>textcolor</key>
-				<string></string>
-				<key>wrapat</key>
-				<integer>50</integer>
+				<key>keyword</key>
+				<string>no</string>
+				<key>subtext</key>
+				<string>追加できるタスクは1つのみです</string>
+				<key>text</key>
+				<string>{query} を Inbox に追加します</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>45FDE1FD-91D4-4369-88E6-A45E06323AC6</string>
+			<string>0C708B5B-8E02-4159-9726-C2EB437C9283</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
+				<key>concurrently</key>
 				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
-				<key>keyword</key>
-				<string>no</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Any idea?</string>
 				<key>type</key>
 				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>210E5D83-ED0C-48BA-AA68-D6641ABE211B</string>
+			<string>2F8D1DAC-1D2D-4C84-B7BC-4F9A77261183</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>210E5D83-ED0C-48BA-AA68-D6641ABE211B</key>
+		<key>0C708B5B-8E02-4159-9726-C2EB437C9283</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>75</integer>
 			<key>ypos</key>
-			<integer>115</integer>
+			<integer>45</integer>
 		</dict>
-		<key>45FDE1FD-91D4-4369-88E6-A45E06323AC6</key>
+		<key>2F8D1DAC-1D2D-4C84-B7BC-4F9A77261183</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>115</integer>
+			<integer>45</integer>
 		</dict>
 	</dict>
 	<key>variables</key>

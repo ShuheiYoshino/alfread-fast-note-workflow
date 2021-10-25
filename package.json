@@ -5,8 +5,11 @@
   "repository": "git@github.com:ShuheiYoshino/alfread-fast-note-workflow.git",
   "author": "Yoshino Shuhei <s.yoshino.1113@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "alfy": "^0.12.1"
+    "@notionhq/client": "^0.4.4",
+    "alfy": "^0.12.1",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
